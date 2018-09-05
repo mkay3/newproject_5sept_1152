@@ -1,0 +1,133 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.post {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+.nav-item{
+    float: left;
+    list-style:none;
+    margin:10px;
+}
+.nav-item a{
+    text-decoration: none;
+     color: black;
+}
+.nav-item a:hover{
+     color: blue;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0; 
+    }
+}
+
+.pagination{
+display: inline-flex !important;
+list-style: none !important;
+}
+
+.pagination li{
+    margin-left: 4px;
+margin-right: 4px;
+}
+
+.desc{
+max-height: 39px;
+overflow: hidden;
+}
+
+.hidden{
+    display: none;
+}
+.emoty{
+    height: 400px;
+}
+
+.dropdown{
+    float: right;
+    width: 100px;
+}
+
+.menuitems{
+    display: inline;
+}
+.menuitems li{
+    margin-left: 10px;
+}
+select{
+    height: auto !important;
+}
+.logout{
+    float: right;
+}
+.logout li{
+    margin-left: 5px;
+}
+.col-md-8{
+    height: 322px;
+}
+.paginationdiv{
+    text-align: center;
+}
+.header{
+    padding: 5px;
+}
