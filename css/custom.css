@@ -1,6 +1,7 @@
 .hidden{
 	display: none;
 }
+
 .hidden{
 	display: none;
 }.hidden{
@@ -16,3 +17,12 @@
 .hidden{
 	display: none;
 }
+
+
+.hidden2{
+	display: none;
+}
+.hidden3{
+   display :block;
+}
+
